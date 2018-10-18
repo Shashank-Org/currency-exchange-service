@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: currency-exchange-service
+    
+server:
+  port: 8010
+  
+logging:
+  level:
+    root: INFO
+    
+#  file: ./logs.log
+  config: classpath:logback.xml
+  
